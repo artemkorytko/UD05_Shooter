@@ -174,7 +174,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6766598759714028492, guid: 62f1c41190df748108480350fe70a51c, type: 3}
       propertyPath: m_Name
-      value: stena dver
+      value: stena dver 1
       objectReference: {fileID: 0}
     - target: {fileID: 7825689429024867615, guid: 62f1c41190df748108480350fe70a51c, type: 3}
       propertyPath: m_LocalScale.x
@@ -194,6 +194,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 62f1c41190df748108480350fe70a51c, type: 3}
+--- !u!1 &4491911427087805036 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6766598759714028492, guid: 62f1c41190df748108480350fe70a51c, type: 3}
+  m_PrefabInstance: {fileID: 7183716516486730144}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &7361400508608492056
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4491911427087805036}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &7370811927164413588 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 431169606956398388, guid: 62f1c41190df748108480350fe70a51c, type: 3}
