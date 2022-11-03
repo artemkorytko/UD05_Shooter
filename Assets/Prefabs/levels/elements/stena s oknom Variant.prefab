@@ -62,7 +62,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 80b2fa79a922a4462806daa7b95a10a7, type: 2}
+  - {fileID: 2100000, guid: ff7e1bb5df7cc45299b3d9277942335e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -150,7 +150,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5649922855278048457, guid: d3fdabcdb5fe34b4cb1b086d382db77b, type: 3}
       propertyPath: m_Name
-      value: stena s oknom
+      value: stena s oknom Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d3fdabcdb5fe34b4cb1b086d382db77b, type: 3}
