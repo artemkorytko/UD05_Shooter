@@ -312,6 +312,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Level3
       objectReference: {fileID: 0}
+    - target: {fileID: 7215159204831373490, guid: 8b9ddbbb6f9e1494bad6d46dd82f3521, type: 3}
+      propertyPath: _enemies.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7215159204831373491, guid: 8b9ddbbb6f9e1494bad6d46dd82f3521, type: 3}
       propertyPath: m_RootOrder
       value: 2
