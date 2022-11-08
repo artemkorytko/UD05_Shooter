@@ -1517,6 +1517,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49865a15472dd46588ae5ec26830d146, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1721018793 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 366622619, guid: ec96edc1874954e269afb890895dfdb9, type: 3}
+  m_PrefabInstance: {fileID: 1918467223}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1721018798
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1721018793}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 011332b0082c64a26849cd07c08b1054, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1724786553
 GameObject:
   m_ObjectHideFlags: 0
@@ -1781,6 +1806,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 366622621, guid: ec96edc1874954e269afb890895dfdb9, type: 3}
+      propertyPath: m_Transition
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 366622621, guid: ec96edc1874954e269afb890895dfdb9, type: 3}
+      propertyPath: m_Interactable
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 737314727, guid: ec96edc1874954e269afb890895dfdb9, type: 3}
       propertyPath: m_Name
       value: Button_sprite
@@ -1852,6 +1885,10 @@ PrefabInstance:
     - target: {fileID: 1330422072, guid: ec96edc1874954e269afb890895dfdb9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1633320849, guid: ec96edc1874954e269afb890895dfdb9, type: 3}
+      propertyPath: m_text
+      value: Something
       objectReference: {fileID: 0}
     - target: {fileID: 2230073412656979862, guid: ec96edc1874954e269afb890895dfdb9, type: 3}
       propertyPath: m_AnchorMax.x
@@ -2108,6 +2145,14 @@ PrefabInstance:
     - target: {fileID: 5895487304842942965, guid: ec96edc1874954e269afb890895dfdb9, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5895487304998861069, guid: ec96edc1874954e269afb890895dfdb9, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.24482045
+      objectReference: {fileID: 0}
+    - target: {fileID: 5895487304998861069, guid: ec96edc1874954e269afb890895dfdb9, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 47.01532
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec96edc1874954e269afb890895dfdb9, type: 3}
