@@ -1866,12 +1866,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5895487303497657976, guid: ec96edc1874954e269afb890895dfdb9, type: 3}
+      propertyPath: m_Transition
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5895487303497657976, guid: ec96edc1874954e269afb890895dfdb9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1669222354}
     - target: {fileID: 5895487303497657976, guid: ec96edc1874954e269afb890895dfdb9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Exit
+      objectReference: {fileID: 0}
+    - target: {fileID: 5895487303497657983, guid: ec96edc1874954e269afb890895dfdb9, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 5895487303497657983, guid: ec96edc1874954e269afb890895dfdb9, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1890,11 +1898,39 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5895487303497657983, guid: ec96edc1874954e269afb890895dfdb9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5895487303497657983, guid: ec96edc1874954e269afb890895dfdb9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5895487303497657983, guid: ec96edc1874954e269afb890895dfdb9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5895487303497657983, guid: ec96edc1874954e269afb890895dfdb9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5895487303497657983, guid: ec96edc1874954e269afb890895dfdb9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5895487303497657983, guid: ec96edc1874954e269afb890895dfdb9, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5895487303497657983, guid: ec96edc1874954e269afb890895dfdb9, type: 3}
       propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5895487303497657983, guid: ec96edc1874954e269afb890895dfdb9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5895487303497657983, guid: ec96edc1874954e269afb890895dfdb9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5895487303968820870, guid: ec96edc1874954e269afb890895dfdb9, type: 3}
@@ -2075,6 +2111,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec96edc1874954e269afb890895dfdb9, type: 3}
+--- !u!1 &1933006935 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5895487303497657982, guid: ec96edc1874954e269afb890895dfdb9, type: 3}
+  m_PrefabInstance: {fileID: 1918467223}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1933006940
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1933006935}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 011332b0082c64a26849cd07c08b1054, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1971864392
 GameObject:
   m_ObjectHideFlags: 0
@@ -2160,7 +2221,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 736078782}
   m_Direction: 2
   m_MinValue: 23
-  m_MaxValue: 35
+  m_MaxValue: 30
   m_WholeNumbers: 0
   m_Value: 23
   m_OnValueChanged:
