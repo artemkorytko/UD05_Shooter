@@ -1248,7 +1248,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5895487303968820870, guid: ec96edc1874954e269afb890895dfdb9, type: 3}
       propertyPath: m_AdditionalShaderChannelsFlag
-      value: 1
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 5895487303968820871, guid: ec96edc1874954e269afb890895dfdb9, type: 3}
       propertyPath: m_Pivot.x
@@ -1345,10 +1345,10 @@ PrefabInstance:
     - target: {fileID: 5895487304538238616, guid: ec96edc1874954e269afb890895dfdb9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1669222354}
     - target: {fileID: 5895487304538238616, guid: ec96edc1874954e269afb890895dfdb9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: 
+      value: StartGame
       objectReference: {fileID: 0}
     - target: {fileID: 5895487304538238623, guid: ec96edc1874954e269afb890895dfdb9, type: 3}
       propertyPath: m_AnchorMax.y
