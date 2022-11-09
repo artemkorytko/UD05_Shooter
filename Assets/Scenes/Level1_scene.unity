@@ -959,7 +959,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 0}
+  m_FirstSelected: {fileID: 1669222352}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
 --- !u!4 &687696442
@@ -1403,7 +1403,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _levels:
-  - {fileID: 1384363053079252586, guid: 999bb0adb7c8143159c2ac855c2781c8, type: 3}
+  - {fileID: 1384363053079252586, guid: 0076a2d0accc44f61b0747290743bbd5, type: 3}
   - {fileID: 1384363053079252586, guid: 999bb0adb7c8143159c2ac855c2781c8, type: 3}
   _uiManager: {fileID: 1681466042}
   _bulletPool: {fileID: 1669222353}
@@ -2074,6 +2074,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 47.01532
       objectReference: {fileID: 0}
+    - target: {fileID: 5895487305119983709, guid: ec96edc1874954e269afb890895dfdb9, type: 3}
+      propertyPath: _gameManager
+      value: 
+      objectReference: {fileID: 1669222354}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec96edc1874954e269afb890895dfdb9, type: 3}
 --- !u!1 &1933006935 stripped
