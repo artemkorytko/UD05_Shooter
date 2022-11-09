@@ -5015,7 +5015,7 @@ CharacterController:
   m_Enabled: 1
   serializedVersion: 2
   m_Height: 3
-  m_Radius: 0.5
+  m_Radius: 0.6
   m_SlopeLimit: 45
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
@@ -5038,8 +5038,8 @@ MonoBehaviour:
   _deadHeight: -30
   _dotProductForShoot: 0.9
   _useAutoInitialization: 0
-  _forwardSpeed: 7
-  _rotationSpeed: 100
+  _forwardSpeed: 5
+  _rotationSpeed: 75
   _minAngle: 1
   _distanceToGround: 0.1
   _camera: {fileID: 1352558929576965663}
@@ -14854,7 +14854,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 10
+  m_Radius: 25
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &7770326130451973185
 Rigidbody:
