@@ -144,7 +144,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _minDotProduct: 0
   _minDistanceToTarget: 2
-  _maxDistanceToTarget: 10
+  _maxDistanceToTarget: 4
 --- !u!135 &4296139498720787378
 SphereCollider:
   m_ObjectHideFlags: 0
