@@ -463,6 +463,22 @@ PrefabInstance:
       propertyPath: _uiManager
       value: 
       objectReference: {fileID: 505461200}
+    - target: {fileID: 6528337569301992791, guid: 1e5647063f9df244b97ef40a24fe0391, type: 3}
+      propertyPath: _levels.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6528337569301992791, guid: 1e5647063f9df244b97ef40a24fe0391, type: 3}
+      propertyPath: _levels.Array.data[0]
+      value: 
+      objectReference: {fileID: 851848384286198364, guid: db59a542f4c430940a3d295d91b095f4, type: 3}
+    - target: {fileID: 6528337569301992791, guid: 1e5647063f9df244b97ef40a24fe0391, type: 3}
+      propertyPath: _levels.Array.data[1]
+      value: 
+      objectReference: {fileID: 6289474434468639117, guid: d61f5931f0f4ec84c89fc024e43b788d, type: 3}
+    - target: {fileID: 6528337569301992791, guid: 1e5647063f9df244b97ef40a24fe0391, type: 3}
+      propertyPath: _levels.Array.data[2]
+      value: 
+      objectReference: {fileID: 2817464762912810906, guid: 267e76b342acc1b468de7d64fa52cbfb, type: 3}
     - target: {fileID: 7776157461948566461, guid: 1e5647063f9df244b97ef40a24fe0391, type: 3}
       propertyPath: m_RootOrder
       value: 1
