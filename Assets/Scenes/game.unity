@@ -607,6 +607,14 @@ PrefabInstance:
       propertyPath: _uiManager
       value: 
       objectReference: {fileID: 1983614624}
+    - target: {fileID: 2939076704837885846, guid: bd81e6e1bdfdd794b872b6d1a24b9602, type: 3}
+      propertyPath: _levels.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2939076704837885846, guid: bd81e6e1bdfdd794b872b6d1a24b9602, type: 3}
+      propertyPath: _levels.Array.data[1]
+      value: 
+      objectReference: {fileID: 3373930778925224064, guid: b3d751ea4e6a34d4fa707bafd98aa270, type: 3}
     - target: {fileID: 4096868159507594230, guid: bd81e6e1bdfdd794b872b6d1a24b9602, type: 3}
       propertyPath: m_RootOrder
       value: 1

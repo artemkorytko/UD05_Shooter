@@ -47,6 +47,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _levels:
   - {fileID: 7311407337279348456, guid: 63d41935c33fed340a8be236690b26ca, type: 3}
+  - {fileID: 3373930778925224064, guid: b3d751ea4e6a34d4fa707bafd98aa270, type: 3}
   _uiManager: {fileID: 0}
   _bulletPool: {fileID: 51237744308622047}
 --- !u!114 &51237744308622047
